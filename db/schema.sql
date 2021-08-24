@@ -5,7 +5,17 @@ USE employees_db
 
 CREATE TABLE department (
     id INT NOT NULL AUTO_INCREMENT,
-    NAME VARCHAR(45) NULL,
+    name VARCHAR(45) NULL,
     PRIMARY KEY (id)
 );
+
+CREATE TABLE employee (
+    id INT NOT NULL AUTO_INCREMENT,
+    firstName VARCHAR(45) NULL,
+    lastName VARCHAR(45) NULL,
+    role_id INT NULL,
+    manager_id INT NULL,
+    PRIMARY KEY (id),
+);
+
 
