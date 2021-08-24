@@ -1,0 +1,27 @@
+{
+    "name": "Employee-Tracker",
+    "version": "1.0.0",
+    "description": "A CLI application that allows the user to view and manage a team that will be stored in MySQL database",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BSchumann15/Employee-Tracker.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/BSchumann15/Employee-Tracker/issues"
+    },
+    "homepage": "https://github.com/BSchumann15/Employee-Trackerr#readme",
+    "dependencies": {
+      "console.table": "^0.10.0",
+      "inquirer": "^7.0.0",
+      "mysql": "^2.17.1"
+    },
+    "devDependencies": {}
+  }
