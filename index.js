@@ -31,5 +31,27 @@ function firstPrompt() {
             "End"
         ]
     })
-    
+
+    .then(function ({task}) {
+        switch (task) {
+            case "View Employees":
+                 viewEmployee();
+                 break;
+            case "View Employees by Department":
+                viewEmployeeDepartment();
+                break;
+            case "Add Employee":
+                addEmployee();
+                break;
+            case "Update Employee Role":
+                updateEmployeeRole();
+                break;
+            case "Add Role":
+                addRole();
+                break;
+            case "End":
+                connection.end();
+                break;      
+        }
+    });
 }
