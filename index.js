@@ -75,3 +75,4 @@ function viewEmployee () {
     });
 }
 
+function viewEmployeeDepartment ()
